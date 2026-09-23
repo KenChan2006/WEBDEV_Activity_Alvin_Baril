@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVITY CSS</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+            text-shadow: 4px 5px 7px yellow;
+        }
+        h5 {
+            text-align: center;
+            color: yellow;
+            text-shadow: 3px 4px 6px red;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            display: inline-block;
+        }
+        .main-container {
+           text-align: center;
+           margin-top: 100px;
+        }
+        .container1 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .main-container .container1 .button-container {
+            display: inline-block;
+            margin-left: 40px;
+        }
+        .button {
+            background-color: rgba(3, 129, 77, 0.973);
+            border-radius: 20px;
+            transition: all 1s ease-in-out;
+        }
+        .button:hover {
+            background-color: white;
+            border: 2px solid red;
+            box-shadow: 0 0 20px red;
+            color: red;
+        }
+
+        .main-container .container2 .button-container {
+            display: inline-block;
+            margin-left: 40px;
+        }
+
+        @media screen and (max-width: 600px){
+            body {
+                background-color: grey;
+            }
+            h1 {
+                margin-bottom: 3px;
+                text-align: center;
+                color: aliceblue;
+                text-shadow: 4px 5px 7px rgb(255, 0, 0);
+            }
+            h5 {
+                text-align: center;
+                font-size: larger;
+                margin-top: 3px;
+                color: rgb(0, 202, 17);
+                text-shadow: 2px 4px 6px rgb(255, 102, 0);
+            }
+            .main-container {
+                text-align: center;
+                margin-top: 40px;
+                margin-left: 0;
+            }
+            .main-container .container1 .button-container,
+            .main-container .container2 .button-container {
+                display: block; 
+                margin: 15px auto;
+            }
+            .container1 {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            .button {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>ACTIVITY CSS</h1>
+    <h5>Alvin Ortisano Baril Activity</h5>
+    
+    <div class="main-container">
+        <div class="container1">
+            <div class="button-container">
+                <a href="Goal1/index.html" class="button">GOAL 1</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal2/index.html" class="button">GOAL 2</a>
+            </div>
+            <div class="button-container" >
+                <a href="Goal3/index.html" class="button">GOAL 3</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal4/index.html" class="button">GOAL 4</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal5/index.html" class="button">GOAL 5</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal6/index.html"class="button">GOAL 6</a>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="button-container">
+                <a href="Goal7/index.html" class="button">GOAL 7</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal8/index.html" class="button">GOAL 8</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal9/index.html" class="button">GOAL 9</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal10/index.html" class="button">GOAL 10</a>
+            </div>
+            <div class="button-container">
+                <a href="Goal11/index.html" class="button">GOAL 11</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
