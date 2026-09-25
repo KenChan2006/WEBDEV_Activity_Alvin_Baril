@@ -25,15 +25,26 @@
             padding: 10px;
             display: inline-block;
         }
-        .main-container {
+        .main-container, .html-activity {
            text-align: center;
            margin-top: 100px;
+           border: 3px solid white;
+           padding-bottom: 30px;
+           border-radius: 50px;
+           transition: all 2s ease-in-out;
+        }
+        .main-container:hover{
+            box-shadow: 0 0 40px white;
+        }
+        .html-activity:hover{
+            box-shadow: 0 0 40px white;
         }
         .container1 {
             margin-top: 50px;
             margin-bottom: 50px;
         }
-        .main-container .container1 .button-container {
+        .main-container .container1 .button-container, 
+        .html-activity .container1 .button-container {
             display: inline-block;
             margin-left: 40px;
         }
@@ -49,7 +60,8 @@
             color: red;
         }
 
-        .main-container .container2 .button-container {
+        .main-container .container2 .button-container,
+        .html-activity .container2 .button-container {
             display: inline-block;
             margin-left: 40px;
         }
@@ -71,13 +83,22 @@
                 color: rgb(0, 202, 17);
                 text-shadow: 2px 4px 6px rgb(255, 102, 0);
             }
-            .main-container {
+            .main-container, .html-activity {
                 text-align: center;
                 margin-top: 40px;
                 margin-left: 0;
+                border: 3px solid rgb(255, 0, 0);
+            }
+            .main-container:hover{
+                box-shadow: 0 0 40px rgb(255, 0, 0);
+            }
+            .html-activity:hover{
+                box-shadow: 0 0 40px rgb(255, 0, 0);
             }
             .main-container .container1 .button-container,
-            .main-container .container2 .button-container {
+            .html-activity .container1 .button-container,
+            .main-container .container2 .button-container,
+            .html-activity .container2 .button-container {
                 display: block; 
                 margin: 15px auto;
             }
@@ -92,10 +113,9 @@
     </style>
 </head>
 <body>
-    <h1>ACTIVITY CSS</h1>
-    <h5>Alvin Ortisano Baril Activity</h5>
     
     <div class="main-container">
+        <h1>CSS ACTIVITY</h1>
         <div class="container1">
             <div class="button-container">
                 <a href="Goal1/index.html" class="button">GOAL 1</a>
@@ -132,6 +152,47 @@
             </div>
             <div class="button-container">
                 <a href="Goal11/index.html" class="button">GOAL 11</a>
+            </div>
+        </div>
+    </div>
+    <div class="html-activity">
+        <h1>HTML ACTIVITY</h1>
+        <div class="container1">
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity1/Goal.html" class="button">GOAL 1</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity2/goal2.html" class="button">GOAL 2</a>
+            </div>
+            <div class="button-container" >
+                <a href="Alvin_Ortisano/Activity3/goal3.html" class="button">GOAL 3</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity4/goal4.html" class="button">GOAL 4</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity5/goal5.html" class="button">GOAL 5</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity6/goal6.html"class="button">GOAL 6</a>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity7/goal7.html" class="button">GOAL 7</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity8/goal8.html" class="button">GOAL 8</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity9/goal9.html" class="button">GOAL 9</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity10/Folder0/index.html" class="button">GOAL 10</a>
+            </div>
+            <div class="button-container">
+                <a href="Alvin_Ortisano/Activity11/goal11.html" class="button">GOAL 11</a>
             </div>
         </div>
     </div>
